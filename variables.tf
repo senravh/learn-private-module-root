@@ -13,14 +13,3 @@ variable "name" {
   type        = string
 }
 
-variable "AWS_ACCESS_KEY_ID" {
-  description = ""
-  type        = string
-  sensitive   = true    
-}
-
-variable "AWS_SECRET_ACCESS_KEY" {
-  description = ""
-  type        = string
-  sensitive   = true 
-}
